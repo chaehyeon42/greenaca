@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+
+<style>
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+#container{
+     	width:1043px;
+     	height:150px;
+     	margin:0px auto;
+     	padding:0px;
+     	border:10px;
+     	position: relative;
+     	background:linear-gradient(gray,lightgray);
+     	}
+
+
+#header{
+          width:1042px;
+          height:150px;
+          padding:0px;
+          border:solid 1px black;
+}
+
+#main{
+     	width:1024px;
+       margin-bottom:0px auto;
+	   margin-top:10px;
+}
+#header_left{
+	 	  width:300px;
+          margin:10px;
+
+}
+#header_right{
+			width:700px;   
+    		height:30px;
+    		float:right;
+    		position:absolute;
+    		bottom:5px;
+			right:3px;
+}
+
+
+#main_left{
+          width:690px;
+          height:196px;
+          float:left;
+          border:solid 1px black;
+		 background-color: white;
+		 margin-left: 50px;
+		 margin-top: 0px;
+}
+
+#main_right{
+		  width:215px ;
+          height:204px;
+          float:right;
+          border:solid 1px black;
+          background-color: white;
+          margin-bottom: 10px
+}
+
+#main_all{
+           background-color: lightgreen;
+            width:1024px;
+          height:800px;
+          padding:10px;
+}
+
+#main_bottom{
+              background-color: lightblue;
+              width:50px;
+              height:300px;
+              float:left;
+              border:solid 1px black;
+             
+}
+
+#footer{
+		border:1px solid black;
+		clear:both;
+}
+table{
+ 		margin:0px 0 10px 0px;
+		border:1px solid black; 
+		border-collapse: collapse;
+		background-color: white;
+}
+
+tr,td{
+       border:1px solid black; 
+       color: black;
+}
+
+h1{
+     display: block;
+    font-size: 2em;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.67em;
+    margin-inline-start: -5px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p{
+      margin-block-start: 1em;
+    margin-block-end: -1em;
+    margin-inline-start: 1px;
+    margin-inline-end: 0px;
+}
+
+
+</style>
+</head>
+<body>
+
+<div id="container">
+	<div id="header">
+		<div id="header_left">
+			<h1>소년 가장의 블로그</h1>
+			<p>철부지 자취생의 세상 사는 이야기</p>
+		</div>
+		<div id="header_right">
+			<table align="right">
+				<tr>
+				<td><a href="블로그 설정">블로그 설정</a></td>
+				<td><a href="방문자 통계">방문자 통계</a></td>
+				<td><a href="카테고리 편집">카테고리 편집</a></td>
+				<td><a href="댓글 관리">댓글 관리</a></td>
+				<td><a href="이웃 블로그">이웃 블로그</a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	
+
+	<div id="main_all">
+	<div id="small_main">
+	    <div id="main">
+		<div id="main_right"></div>
+				<div id="main_bottom"></div>
+		<div id="main_left"></div>
+	</div>	
+   </div>
+   	
+	<div id="main"></div>
+	<div id="footer">hy</div>
+
+
+</div>
+</div>
+
+</body>
+</html>
